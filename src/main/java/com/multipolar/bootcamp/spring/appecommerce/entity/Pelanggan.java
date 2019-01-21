@@ -24,8 +24,8 @@ public class Pelanggan {
     @Column(name = "nama", nullable = false, length = 100)
     private String nama;
     
-    @Column(name = "nomor_ktp", nullable = false, length = 16, unique = true)
-    private String nomorKtp;
+    @Column(name = "id_pelanggan", nullable = false, length = 16, unique = true)
+    private String idPelanggan;
     
     @Type(type = "text")
     @Column(name = "alamat")
